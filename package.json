@@ -1,10 +1,10 @@
 {
-  "name": "nodejs-box",
-  "version": "0.1.3",
-  "description": "Box API client for Node.JS",
+  "name": "box-api-sdk",
+  "version": "0.0.1",
+  "description": "Forked from nodejs-box, high level box api",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Skycatch/node-box.git"
+    "url": "git@github.com:soxhub/box-api-sdk.git"
   },
   "main": "lib/index.js",
   "directories": {
@@ -16,10 +16,12 @@
   "keywords": [
     "box.com",
     "box",
+    "box api",
+    "box sdk",
     "box.net"
   ],
-  "author": "Benjamin Lyaunzon <ben@skycatch.com>",
-  "license": "N/A",
+  "author": "Kevin Jhangiani <kevin@soxhub.com>",
+  "license": "MIT",
   "dependencies": {
     "superagent": "~0.18.0"
   },
